@@ -19,11 +19,11 @@ const Navigation = () => (
                         Portfolio
                     </NavLink>
                 </li>
-                <li>
+                {/* <li>
                     <NavLink className="link-style" to="/aboutme">
                         About me
                     </NavLink>
-                </li>
+                </li> */}
                 <li>
 					<a className="link-style" href="https://www.linkedin.com/in/emma-nevala/" target="_blank">
                         Get in contact
@@ -42,11 +42,11 @@ const Navigation = () => (
                         Portfolio
                     </NavLink>
                 </div>
-                <div>
+                {/* <div>
                     <NavLink className="link-style" to="/aboutme">
                         About me
                     </NavLink>
-                </div>
+                </div> */}
                 <div>
                     <a className="link-style" href="https://www.linkedin.com/in/emma-nevala/" target="_blank">
                         Get in contact
