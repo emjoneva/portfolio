@@ -53,3 +53,7 @@
 		flex-direction: column;
 	}
 }
+
+.project-description a {
+	color: #0f3d51;
+}
