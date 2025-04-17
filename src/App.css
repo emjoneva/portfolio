@@ -1,38 +1,79 @@
-.App {
-  text-align: center;
+body {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  height: 100vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600; /* semi bold */
+  font-size: 40px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+h4 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  width: 85%;
+}
+
+.content {
+  color: #0f3d51;
+  background-color: #f0f5f5;
+  padding: 100px 160px 100px 80px !important;
+  width: 100%;
+}
+
+.content-padding {
+  padding: 12px 0px 12px 0px;
+}
+
+.project {
+  width: 380px;
+}
+
+.project img {
+  width: 380px;
+  height: 250px;
+  object-fit: cover;
+  padding-bottom: 24px;
+}
+
+.container-fluid,
+.page-row {
+  height: 100vh;
+}
+
+
+@media screen and (max-width: 1000px) {
+  .content {
+    padding: 30px 20px 100px 20px !important;
+    width: 100%;
+  }
+
+  h4 {
+    width: 100%;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.link-style {
+  color: #0f3d51;
+  text-decoration: none;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.link-style:hover, .link-style:active {
+  text-decoration: underline;
 }
