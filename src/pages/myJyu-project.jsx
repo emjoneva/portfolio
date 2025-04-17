@@ -9,7 +9,7 @@ const MyJyuProject = () => (
             <Navigation />
             <div className="col content project-content">
                 <h2 className="content-padding">MyJYU Campus App for the University of Jyväskylä</h2>
-                <div className="row">
+                <div className="row info-row">
                     <div className="col-2 project content-padding project-info">
                         <div className="info-label">Duration:</div>
                     </div>
@@ -17,7 +17,7 @@ const MyJyuProject = () => (
                         <div className="info-content"></div>
                     </div>
                 </div>
-                <div className="row">
+                <div className="row info-row">
                     <div className="col-2 project content-padding project-info">
                         <div className="info-label">Customer:</div>
                     </div>
@@ -25,7 +25,7 @@ const MyJyuProject = () => (
                         <div className="info-content"></div>
                     </div>
                 </div>
-                <div className="row">
+                <div className="row info-row">
                     <div className="col-2 project content-padding project-info">
                         <div className="info-label">Skills:</div>
                     </div>

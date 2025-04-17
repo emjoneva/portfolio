@@ -18,7 +18,7 @@ const SIGCHIProject = () => (
                         <div className="info-content">May 2024</div>
                     </div>
                 </div>
-                <div className="row">
+                <div className="row info-row">
                     <div className="col-2 project content-padding project-info">
                         <div className="info-label">Customer:</div>
                     </div>
@@ -26,7 +26,7 @@ const SIGCHIProject = () => (
                         <div className="info-content">-</div>
                     </div>
                 </div>
-                <div className="row">
+                <div className="row info-row">
                     <div className="col-2 project content-padding project-info">
                         <div className="info-label">Skills:</div>
                     </div>

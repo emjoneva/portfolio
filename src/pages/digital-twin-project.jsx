@@ -9,7 +9,7 @@ const DigitalTwinProject = () => (
             <Navigation />
             <div className="col content project-content">
                 <h2 className="content-padding">Digital Twin App Proof of Concept (POC) for City of Helsinki</h2>
-                <div className="row">
+                <div className="row info-row">
                     <div className="col-2 project content-padding project-info">
                         <div className="info-label">Duration:</div>
                     </div>
@@ -17,7 +17,7 @@ const DigitalTwinProject = () => (
                         <div className="info-content">06/2023 - 03/2024</div>
                     </div>
                 </div>
-                <div className="row">
+                <div className="row info-row">
                     <div className="col-2 project content-padding project-info">
                         <div className="info-label">Customer:</div>
                     </div>
@@ -25,7 +25,7 @@ const DigitalTwinProject = () => (
                         <div className="info-content">City of Helsinki</div>
                     </div>
                 </div>
-                <div className="row">
+                <div className="row info-row">
                     <div className="col-2 project content-padding project-info">
                         <div className="info-label">Skills:</div>
                     </div>
