@@ -4,6 +4,15 @@ import Navigation from "./components/navigation";
 import { NavLink } from "react-router";
 import ImageHover from "./components/imagehover";
 
+import rapuDefault from "./assets/rapu-default.png";
+import rapuHover from "./assets/rapu-hover.png";
+import digitalTwinDefault from "./assets/digital-twin-default.png";
+import digitalTwinHover from "./assets/digital-twin-hover.png";
+import sigchiDefault from "./assets/SIGCHI-talk.png";
+import sigchiHover from "./assets/sigchi.png";
+import myjyuDefault from "./assets/myjyu-default.png";
+import myjyuHover from "./assets/myjyu-hover.png";
+
 const App = () => (
     <div className="container-fluid">
         <div className="row page-row">
@@ -13,7 +22,7 @@ const App = () => (
                 <div className="row">
                     <div className="col project content-padding">
                         <NavLink className="link-style" to="/rapu-project">
-                            <ImageHover mainImage="src/assets/rapu-default.png" hoverImage="src/assets/rapu-hover.png" />
+                            <ImageHover mainImage={rapuDefault} hoverImage={rapuHover} />
                         </NavLink>
                         <h4>
                             <NavLink className="link-style" to="/rapu-project">
@@ -23,7 +32,7 @@ const App = () => (
                     </div>
                     <div className="col project content-padding">
                         <NavLink className="link-style" to="/digital-twin-project">
-                            <ImageHover mainImage="src/assets/digital-twin-default.png" hoverImage="src/assets/digital-twin-hover.png" />
+                            <ImageHover mainImage={digitalTwinDefault} hoverImage={digitalTwinHover} />
                         </NavLink>
                         <h4>
                             <NavLink className="link-style" to="/digital-twin-project">
@@ -35,7 +44,7 @@ const App = () => (
                 <div className="row">
                     <div className="col project content-padding">
                         <NavLink className="link-style" to="/SIGCHI-project">
-                            <ImageHover mainImage="src/assets/SIGCHI-talk.png" hoverImage="src/assets/sigchi.png" />
+                            <ImageHover mainImage={sigchiDefault} hoverImage={sigchiHover} />
                         </NavLink>
                         <h4>
                             <NavLink className="link-style" to="/SIGCHI-project">
@@ -45,7 +54,7 @@ const App = () => (
                     </div>
                     <div className="col project content-padding">
                         <NavLink className="link-style" to="/myjyu-project">
-                            <ImageHover mainImage="src/assets/myjyu-default.png" hoverImage="src/assets/myjyu-hover.png" />
+                            <ImageHover mainImage={myjyuDefault} hoverImage={myjyuHover} />
                         </NavLink>
                         <h4>
                             <NavLink className="link-style" to="/myjyu-project">

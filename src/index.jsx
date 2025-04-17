@@ -12,9 +12,9 @@ import SIGCHIProject from './pages/SIGCHI-project.jsx';
 import MyJyuProject from './pages/myJyu-project.jsx';
 
 createRoot(document.getElementById('root')).render(
-  <BrowserRouter>
+  <BrowserRouter basename="/portfolio">
     <Routes>
-      <Route path="/portfolio/" element={<App />} />
+      <Route path="/" element={<App />} />
       <Route path="/rapu-project" element={<RapuProject />} />
       <Route path="/aboutme" element={<AboutMePage />} />
       <Route path="/contact" element={<ContactPage />} />
