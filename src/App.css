@@ -77,3 +77,12 @@ h4 {
 .link-style:hover, .link-style:active {
   text-decoration: underline;
 }
+
+@media screen and (max-width: 400px) {
+  .project img {
+    width: 320px;
+    height: 220px;
+    object-fit: cover;
+    padding-bottom: 24px;
+  }
+}
