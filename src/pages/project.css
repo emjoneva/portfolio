@@ -44,8 +44,22 @@
 	margin-top: 50px;
 }
 
+#project-page h4 {
+	margin-top: 20px;
+}
+
+.project-content {
+	padding-right: 20% !important;
+}
+
 .project-info h4 {
 	margin-left: 0px;
+}
+
+@media screen and (max-width: 1500px) {
+	.project-content {
+		padding-right: 10% !important;
+	}
 }
 
 @media screen and (max-width: 550px) {

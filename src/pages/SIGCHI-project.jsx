@@ -6,9 +6,9 @@ import pdfDeck from "../assets/sigchi-22-5.pdf";
 
 const SIGCHIProject = () => (
     <div className="container-fluid">
-        <div className="row page-row">
+        <div className="row page-row" id="project-page">
             <Navigation />
-            <div className="col content">
+            <div className="col content project-content">
                 <h2 className="content-padding">"How to advocate for Fair Design as a UX Designer" talk at SIGCHI Spring 2024 Seminar</h2>
                 <div className="row info-row">
                     <div className="col-2 project content-padding project-info">
