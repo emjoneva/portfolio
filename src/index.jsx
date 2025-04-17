@@ -14,7 +14,7 @@ import MyJyuProject from './pages/myJyu-project.jsx';
 createRoot(document.getElementById('root')).render(
   <BrowserRouter>
     <Routes>
-      <Route path="/" element={<App />} />
+      <Route path="/portfolio/" element={<App />} />
       <Route path="/rapu-project" element={<RapuProject />} />
       <Route path="/aboutme" element={<AboutMePage />} />
       <Route path="/contact" element={<ContactPage />} />
