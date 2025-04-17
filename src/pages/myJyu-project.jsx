@@ -47,7 +47,7 @@ const MyJyuProject = () => (
 				</div>
 				<div className="row">
 					<div className="project content-padding project-info">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ac scelerisque velit. Donec iaculis, quam quis maximus varius, libero erat convallis purus, quis vehicula lectus orci vel lacus. Donec vehicula, velit a convallis ullamcorper, ipsum diam iaculis nisl, ac gravida lorem mauris eget tortor. Quisque sollicitudin ultricies metus eget viverra. Ut sapien erat, facilisis ut semper vitae, placerat convallis felis. Mauris lectus risus, euismod in libero et, vehicula mattis purus. Aenean ex libero, efficitur a pretium vitae, iaculis non urna. Curabitur eu lacinia tortor, non venenatis sapien. Ut arcu urna, vehicula no
+						Coming soon!
 					</div>
 				</div>
 			</div>

@@ -25,9 +25,9 @@ const Navigation = () => (
                     </NavLink>
                 </li>
                 <li>
-                    <NavLink className="link-style" to="/contact">
+					<a className="link-style" href="https://www.linkedin.com/in/emma-nevala/" target="_blank">
                         Get in contact
-                    </NavLink>
+                    </a>
                 </li>
             </ul>
         </div>
@@ -48,9 +48,9 @@ const Navigation = () => (
                     </NavLink>
                 </div>
                 <div>
-                    <NavLink className="link-style" to="/contact">
+                    <a className="link-style" href="https://www.linkedin.com/in/emma-nevala/" target="_blank">
                         Get in contact
-                    </NavLink>
+                    </a>
                 </div>
             </div>
         </div>
