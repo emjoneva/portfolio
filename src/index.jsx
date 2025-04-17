@@ -1,5 +1,5 @@
 import { createRoot } from 'react-dom/client'
-import { BrowserRouter, Routes, Route } from "react-router";
+import { HashRouter, Routes, Route } from "react-router";
 import './index.css'
 import './App.css';
 import App from './App.jsx'
@@ -11,7 +11,7 @@ import SIGCHIProject from './pages/SIGCHI-project.jsx';
 import MyJyuProject from './pages/myJyu-project.jsx';
 
 createRoot(document.getElementById('root')).render(
-  <BrowserRouter basename="/portfolio">
+  <HashRouter basename="/portfolio">
     <Routes>
       <Route path="/" element={<App />} />
       <Route path="/rapu-project" element={<RapuProject />} />
@@ -20,5 +20,5 @@ createRoot(document.getElementById('root')).render(
       <Route path="/myjyu-project" element={<MyJyuProject />} />
       <Route path="/SIGCHI-project" element={<SIGCHIProject />} />
     </Routes>
-  </BrowserRouter>,
+  </HashRouter>,
 )
