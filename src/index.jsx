@@ -11,7 +11,7 @@ import SIGCHIProject from './pages/SIGCHI-project.jsx';
 import MyJyuProject from './pages/myJyu-project.jsx';
 
 createRoot(document.getElementById('root')).render(
-  <HashRouter basename="/portfolio">
+  <HashRouter>
     <Routes>
       <Route path="/" element={<App />} />
       <Route path="/rapu-project" element={<RapuProject />} />
