@@ -2,6 +2,9 @@ import React from "react";
 import "../App.css";
 import "./project.css";
 import Navigation from "../components/navigation";
+import Rapu1 from "../assets/rapu-1.png";
+import Rapu2 from "../assets/rapu-2.png";
+import Rapu3 from "../assets/rapu-3.png";
 
 const RapuProject = () => (
     <div className="container-fluid">
@@ -60,7 +63,8 @@ const RapuProject = () => (
                     <div className="project content-padding project-info">
                         The new Construction Act (Rakentamislaki) came into effect on January 1, 2025. To support municipalities and cities in granting building and demolition permits under the new
                         law, Gofore designed and developed an information system (RAPU) for reporting materials generated during construction and demolition projects. The system was created in
-                        collaboration with the Finnish Environment Institute (SYKE) and the Ministry of the Environment (YM), and is integrated into the building and demolition permit process. My role in this project concerned research, requirement specification, service design, and UI/UX design and writing.
+                        collaboration with the Finnish Environment Institute (SYKE) and the Ministry of the Environment (YM), and is integrated into the building and demolition permit process. My role
+                        in this project concerned research, requirement specification, service design, and UI/UX design and writing.
                     </div>
                     <div className="row">
                         <h4>Goals</h4>
@@ -73,30 +77,57 @@ const RapuProject = () => (
                     <div className="row">
                         <h4>Research</h4>
                     </div>
-                    <div className="project content-padding project-info">
-                        As the project was driven by a regulatory change rather than a clearly identified user need, the research phase began with a review of preparatory materials for the new
-                        Construction Act, along with a preliminary investigation of a report conducted by another consulting firm. Based on this material and interviews with experts from the Ministry
-                        of the Environment (YM), we identified key user groups and use cases.
+                    <div className="row project-image-content reverse-image">
+                        <div className="project-side-image">
+                            <img src={Rapu1} alt="Rapu project image" className="project-image" />
+                        </div>
+                        <div className="project-side">
+                            <div className="project content-padding project-info">
+                                As the project was driven by a regulatory change rather than a clearly identified user need, the research phase began with a review of preparatory materials for the new
+                                Construction Act, along with a preliminary investigation of a report conducted by another consulting firm. Based on this material and interviews with experts from the
+                                Ministry of the Environment (YM), we identified key user groups and use cases.
+                            </div>
+
+                            <div className="project content-padding project-info">
+                                These insights guided the creation of initial wireframes, which were later refined into mockups and iterated on as the details of the new legislation became clearer.
+                                The designs were reviewed by a panel of experts from various fields — including sustainability consultants, construction professionals, and permit authorities. We also
+                                conducted one-on-one interviews with these stakeholders to deepen our understanding of their specific needs.
+                            </div>
+                        </div>
                     </div>
-                    <div className="project content-padding project-info">
-                        These insights guided the creation of initial wireframes, which were later refined into mockups and iterated on as the details of the new legislation became clearer. The
-                        designs were reviewed by a panel of experts from various fields — including sustainability consultants, construction professionals, and permit authorities. We also conducted
-                        one-on-one interviews with these stakeholders to deepen our understanding of their specific needs.
+                    <div className="row project-image-content reverse-image">
+                        <div className="project-side">
+                            <div className="row">
+                                <h4>Design process</h4>
+                            </div>
+                        </div>
                     </div>
-                    <div className="row">
-                        <h4>Design process</h4>
-                    </div>
-                    <div className="project content-padding project-info">
-                        The design process was iterative and collaborative. Each week, we reviewed the designs with the client, comparing them against the service blueprint and the evolving
-                        regulation. Ongoing feedback from both the customer and stakeholders played a key role in shaping the system. To support smooth collaboration with developers, I created a
-                        component library in Figma based on SYKEʼs internal design guidelines, streamlining the designer–developer handoff.
+                    <div className="row project-image-content">
+                        <div className="project-side-image project-image-margin-top">
+                            <img src={Rapu2} alt="Rapu project image" className="project-image" />
+                        </div>
+                        <div className="project-side">
+                            <div className="project content-padding project-info">
+                                The design process was iterative and collaborative. Each week, we reviewed the designs with the client, comparing them against the service blueprint and the evolving
+                                regulation. Ongoing feedback from both the customer and stakeholders played a key role in shaping the system. To support smooth collaboration with developers, I created
+                                a component library in Figma based on SYKEʼs internal design guidelines, streamlining the designer–developer handoff.
+                            </div>
+                        </div>
                     </div>
                     <div className="row">
                         <h4>Outcome</h4>
                     </div>
-                    <div className="project content-padding project-info">
-                        The outcome of the project was the Rapu system, now used daily by individuals applying for building and demolition permits, as well as by permit authorities. In just one year,
-                        we turned a regulation-driven and initially vague concept into a functioning service that guides users toward recycling materials responsibly.
+                    <div className="row project-image-content reverse-image">
+
+                        <div className="project-side-image">
+                            <img src={Rapu3} alt="Rapu project image" className="project-image" />
+                        </div>
+                        <div className="project-side">
+                            <div className="project content-padding project-info" style={{ display: "block" }}>
+                                The outcome of the project was the <a href="https://rapuselvitys.fi/" target="_blank">Rapu system</a>, now used daily by individuals applying for building and demolition permits, as well as by permit authorities. In just one year,
+                                we turned a regulation-driven and initially vague concept into a functioning service that guides users toward recycling materials responsibly.
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
