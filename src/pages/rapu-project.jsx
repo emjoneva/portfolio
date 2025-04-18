@@ -60,8 +60,7 @@ const RapuProject = () => (
                     <div className="project content-padding project-info">
                         The new Construction Act (Rakentamislaki) came into effect on January 1, 2025. To support municipalities and cities in granting building and demolition permits under the new
                         law, Gofore designed and developed an information system (RAPU) for reporting materials generated during construction and demolition projects. The system was created in
-                        collaboration with the Finnish Environment Institute (SYKE) and the Ministry of the Environment (YM), and is integrated into the building andPurkumateriaali- ja
-                        rakennustietojärjestelmä2 demolition permit process. My role in this project concerned research, requirement specification, service design, and UI/UX design and writing.
+                        collaboration with the Finnish Environment Institute (SYKE) and the Ministry of the Environment (YM), and is integrated into the building and demolition permit process. My role in this project concerned research, requirement specification, service design, and UI/UX design and writing.
                     </div>
                     <div className="row">
                         <h4>Goals</h4>
