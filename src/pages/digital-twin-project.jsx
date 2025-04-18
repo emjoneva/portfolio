@@ -2,6 +2,9 @@ import React from "react";
 import "../App.css";
 import "./project.css";
 import Navigation from "../components/navigation";
+import Digital1 from "../assets/digital-1.png";
+import Digital2 from "../assets/digital-2.png";
+import Digital3 from "../assets/digital-3.png";
 
 const DigitalTwinProject = () => (
     <div className="container-fluid">
@@ -50,59 +53,79 @@ const DigitalTwinProject = () => (
                         have!"
                     </div>
                 </div>
-                <div className="row project-background">
-                    <h4>Background</h4>
-                </div>
                 <div className="row">
-                    <div className="project content-padding project-info">
-                        I worked on a service design and ideation project for the City of Helsinki to shape an early concept into a concrete proof of concept for their upcoming tendering process. My
-                        role was UI/UX designer, collaborating closely with a service designer and the client.
+                    <div className="row project-background">
+                        <h4>Background</h4>
                     </div>
-                </div>
-                <div className="row">
-                    <h4>Goals</h4>
-                </div>
-                <div className="row">
-                    <div className="project content-padding">
-                        The aim was to design a mobile app for two user groups: City of Helsinki employees and maintenance staff.
-                        <ul>
-                            <li>Employees would use the app to book workspaces and meeting rooms across city offices and report maintenance issues.</li>
-                            <li>Maintenance staff would use it in the field to track and update the status of reported issues.</li>
-                        </ul>
+                    <div className="row">
+                        <div className="project content-padding project-info">
+                            I worked on a service design and ideation project for the City of Helsinki to shape an early concept into a concrete proof of concept for their upcoming tendering process.
+                            My role was UI/UX designer, collaborating closely with a service designer and the client.
+                        </div>
                     </div>
-                </div>
-                <div className="row">
-                    <h4>Research</h4>
-                </div>
-                <div className="row">
-                    <div className="project content-padding">
-                        We used a mix of research methods throughout the project. I started with a heuristic evaluation of an existing digital twin solution built by another company. Based on those
-                        findings and the initial requirements from the client, we proposed a more user-centric desin to guide our co-design process.
+                    <div className="row">
+                        <h4>Goals</h4>
                     </div>
-                </div>
-                <div className="row">
-                    <div className="project content-padding">
-                        We ran four workshops, focusing on two key use cases: room booking and maintenance issue reporting. After analysing the workshops, we followed up with one-on-one interviews
-                        with maintenance staff to better understand their workflows, challenges, and how the app could support both daily and long-term tasks.
+                    <div className="row">
+                        <div className="project content-padding">
+                            The aim was to design a mobile app for two user groups: City of Helsinki employees and maintenance staff.
+                            <ul>
+                                <li>Employees would use the app to book workspaces and meeting rooms across city offices and report maintenance issues.</li>
+                                <li>Maintenance staff would use it in the field to track and update the status of reported issues.</li>
+                            </ul>
+                        </div>
                     </div>
-                </div>
-                <div className="row">
-                    <h4>Design process</h4>
-                </div>
-                <div className="row">
-                    <div className="project content-padding">
-                        I created initial wireframes and then refined mockups in close collaboration with the service designer and the client. We iterated on the designs based on findings from the
-                        workshops and interviews. All design work was done in Figma using components from the Helsinki Design System. We used Miro to facilitate workshops and synthesise research
-                        results.
+                    <div className="row">
+                        <h4>Research</h4>
                     </div>
-                </div>
-                <div className="row">
-                    <h4>Outcome</h4>
-                </div>
-                <div className="row">
-                    <div className="project content-padding">
-                        The final deliverables included user stories and requirements for both user groups, detailed design mockups, and a chatbot concept designed to improve the quality of
-                        maintenance issue reporting data. These materials will be used by the City of Helsinki as part of their public tender process.
+                    <div className="row project-image-content reverse-image">
+                        <div className="project-side-image">
+                            <img src={Digital1} alt="Digital Twin project image" className="project-image" />
+                        </div>
+                        <div className="project-side">
+                            <div className="project content-padding project-info">
+                                We used a mix of research methods throughout the project. I started with a heuristic evaluation of an existing digital twin solution built by another company. Based on
+                                those findings and the initial requirements from the client, we proposed a more user-centric desin to guide our co-design process.
+                            </div>
+
+                            <div className="project content-padding project-info">
+                                We ran four workshops, focusing on two key use cases: room booking and maintenance issue reporting. After analysing the workshops, we followed up with one-on-one
+                                interviews with maintenance staff to better understand their workflows, challenges, and how the app could support both daily and long-term tasks.
+                            </div>
+                        </div>
+                    </div>
+                    <div className="row project-image-content reverse-image">
+                        <div className="project-side">
+                            <div className="row">
+                                <h4>Design process</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="row project-image-content">
+                        <div className="project-side-image">
+                            <img src={Digital2} alt="Digital Twin project image" className="project-image" style={{ maxWidth: "600px" }} />
+                        </div>
+                        <div className="project-side">
+                            <div className="project content-padding project-info">
+                                I created initial wireframes and then refined mockups in close collaboration with the service designer and the client. We iterated on the designs based on findings from
+                                the workshops and interviews. All design work was done in Figma using components from the Helsinki Design System. We used Miro to facilitate workshops and synthesise
+                                research results.
+                            </div>
+                        </div>
+                    </div>
+                    <div className="row">
+                        <h4>Outcome</h4>
+                    </div>
+                    <div className="row project-image-content reverse-image">
+                        <div className="project-side-image">
+                            <img src={Digital3} alt="Digital Twin project image" className="project-image" />
+                        </div>
+                        <div className="project-side">
+                            <div className="project content-padding project-info" style={{ display: "block" }}>
+                                The final deliverables included user stories and requirements for both user groups, detailed design mockups, and a chatbot concept designed to improve the quality of
+                                maintenance issue reporting data. These materials will be used by the City of Helsinki as part of their public tender process.
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

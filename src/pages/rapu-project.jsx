@@ -56,10 +56,11 @@ const RapuProject = () => (
                         In just one year, we turned a reqgulation-driven and initially vague concept into a functioning service that guides users toward recycling materials responsibly.
                     </div>
                 </div>
-                <div className="row project-background">
-                    <h4>Background</h4>
-                </div>
                 <div className="row">
+                    <div className="row project-background">
+                        <h4>Background</h4>
+                    </div>
+
                     <div className="project content-padding project-info">
                         The new Construction Act (Rakentamislaki) came into effect on January 1, 2025. To support municipalities and cities in granting building and demolition permits under the new
                         law, Gofore designed and developed an information system (RAPU) for reporting materials generated during construction and demolition projects. The system was created in
@@ -104,7 +105,7 @@ const RapuProject = () => (
                     </div>
                     <div className="row project-image-content">
                         <div className="project-side-image project-image-margin-top">
-                            <img src={Rapu2} alt="Rapu project image" className="project-image" />
+                            <img src={Rapu2} alt="Rapu project image" className="project-image" style={{ maxWidth: "500px" }} />
                         </div>
                         <div className="project-side">
                             <div className="project content-padding project-info">
@@ -118,14 +119,17 @@ const RapuProject = () => (
                         <h4>Outcome</h4>
                     </div>
                     <div className="row project-image-content reverse-image">
-
                         <div className="project-side-image">
                             <img src={Rapu3} alt="Rapu project image" className="project-image" />
                         </div>
                         <div className="project-side">
                             <div className="project content-padding project-info" style={{ display: "block" }}>
-                                The outcome of the project was the <a href="https://rapuselvitys.fi/" target="_blank">Rapu system</a>, now used daily by individuals applying for building and demolition permits, as well as by permit authorities. In just one year,
-                                we turned a regulation-driven and initially vague concept into a functioning service that guides users toward recycling materials responsibly.
+                                The outcome of the project was the{" "}
+                                <a href="https://rapuselvitys.fi/" target="_blank">
+                                    Rapu system
+                                </a>
+                                , now used daily by individuals applying for building and demolition permits, as well as by permit authorities. In just one year, we turned a regulation-driven and
+                                initially vague concept into a functioning service that guides users toward recycling materials responsibly.
                             </div>
                         </div>
                     </div>

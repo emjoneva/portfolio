@@ -89,13 +89,14 @@
     margin-top: -40px;
 }
 
+
 @media screen and (max-width: 1500px) {
     .project-content {
         padding-right: 10% !important;
     }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1200px) {
     .project-image {
         padding: 15px;
     }
