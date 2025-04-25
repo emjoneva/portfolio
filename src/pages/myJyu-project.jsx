@@ -24,7 +24,7 @@ const MyJyuProject = () => (
                         <div className="info-label">Customer:</div>
                     </div>
                     <div className="col project content-padding project-info">
-                        <div className="info-content"></div>
+                        <div className="info-content">-</div>
                     </div>
                 </div>
                 <div className="row info-row">
