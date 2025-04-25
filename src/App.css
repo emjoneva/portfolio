@@ -1,0 +1,88 @@
+body {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  height: 100vh;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600; /* semi bold */
+  font-size: 40px;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+h4 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  width: 85%;
+}
+
+.content {
+  color: #0f3d51;
+  background-color: #f0f5f5;
+  padding: 100px 160px 100px 80px !important;
+  width: 100%;
+}
+
+.content-padding {
+  padding: 12px 0px 12px 0px;
+}
+
+.project {
+  width: 380px;
+}
+
+.project img {
+  width: 380px;
+  height: 250px;
+  object-fit: cover;
+  padding-bottom: 24px;
+}
+
+.container-fluid,
+.page-row {
+  height: 100vh;
+}
+
+
+@media screen and (max-width: 1000px) {
+  .content {
+    padding: 30px 20px 100px 20px !important;
+    width: 100%;
+  }
+
+  h4 {
+    width: 100%;
+  }
+}
+
+.link-style {
+  color: #0f3d51;
+  text-decoration: none;
+}
+
+.link-style:hover, .link-style:active {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 400px) {
+  .project img {
+    width: 320px;
+    height: 220px;
+    object-fit: cover;
+    padding-bottom: 24px;
+  }
+}
