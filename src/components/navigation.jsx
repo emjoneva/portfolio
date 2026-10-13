@@ -8,9 +8,9 @@ const Navigation = () => (
         <div className="col-3 side-nav">
             <img src={profileImage} />
             <h1 className="side-nav-padding">Emma Nevala</h1>
-            <h3 className="side-nav-padding">UI/UX Designer</h3>
+            <h3 className="side-nav-padding">ICT Specialist</h3>
             <p className="side-nav-padding">
-                I'm a UI/UX designer with experience in both the public and private sectors. I'm especially interested in how <strong>data</strong> and <strong>AI</strong> can help to shape the user
+                I'm an ICT Specialist with experience in both the public and private sectors. I'm especially interested in how <strong>data</strong> and <strong>AI</strong> can help to shape the user
                 experience.
             </p>
             <ul className="side-nav-nav">
